@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35F5D4741FD6AD2400B64688 /* ContentSquare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F5D4751FD6AD2400B64688 /* ContentSquare.framework */; };
 		8A00468F1D0E1A3000591840 /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A00468E1D0E1A3000591840 /* AudioEngine.swift */; };
 		8A0714B31BA46CF300A1CC22 /* SearchAPIsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0714B21BA46CF300A1CC22 /* SearchAPIsViewController.swift */; };
 		8A0714B51BA46D0500A1CC22 /* SearchAPIs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A0714B41BA46D0500A1CC22 /* SearchAPIs.storyboard */; };
@@ -124,6 +125,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		35F5D4751FD6AD2400B64688 /* ContentSquare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ContentSquare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A00468E1D0E1A3000591840 /* AudioEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
 		8A0714B21BA46CF300A1CC22 /* SearchAPIsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAPIsViewController.swift; sourceTree = "<group>"; };
 		8A0714B41BA46D0500A1CC22 /* SearchAPIs.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SearchAPIs.storyboard; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35F5D4741FD6AD2400B64688 /* ContentSquare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +250,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35F5D4731FD6AD2400B64688 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35F5D4751FD6AD2400B64688 /* ContentSquare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8A0714B61BA47DE100A1CC22 /* SearchAPIs */ = {
 			isa = PBXGroup;
 			children = (
@@ -552,6 +563,7 @@
 				8AD5D7751B295E8C001924F0 /* iOS9SamplerUITests */,
 				8A2AC8781BB91E2200C05128 /* libs */,
 				8AD5D7541B295E8C001924F0 /* Products */,
+				35F5D4731FD6AD2400B64688 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
