@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35F5D4741FD6AD2400B64688 /* ContentSquare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F5D4751FD6AD2400B64688 /* ContentSquare.framework */; };
 		8A00468F1D0E1A3000591840 /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A00468E1D0E1A3000591840 /* AudioEngine.swift */; };
 		8A0714B31BA46CF300A1CC22 /* SearchAPIsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0714B21BA46CF300A1CC22 /* SearchAPIsViewController.swift */; };
 		8A0714B51BA46D0500A1CC22 /* SearchAPIs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A0714B41BA46D0500A1CC22 /* SearchAPIs.storyboard */; };
@@ -229,7 +228,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35F5D4741FD6AD2400B64688 /* ContentSquare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -766,7 +764,7 @@
 					};
 					8AD5D7521B295E8C001924F0 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 9Z86A4AWDE;
+						DevelopmentTeam = QVP47S2RHS;
 						LastSwiftMigration = 0900;
 					};
 					8AD5D7661B295E8C001924F0 = {
@@ -1151,6 +1149,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = QVP47S2RHS;
 				INFOPLIST_FILE = iOS9Sampler/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1170,6 +1169,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = QVP47S2RHS;
 				INFOPLIST_FILE = iOS9Sampler/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
