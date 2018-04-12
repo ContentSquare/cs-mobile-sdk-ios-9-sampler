@@ -266,6 +266,7 @@
 		35F5D4731FD6AD2400B64688 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				26CFF59C2069454600D7FAD2 /* ContentSquare.framework */,
 				35F5D4751FD6AD2400B64688 /* ContentSquare.framework */,
 			);
 			name = Frameworks;
