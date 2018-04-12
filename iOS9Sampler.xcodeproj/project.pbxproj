@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		267B3AAF207F982B00050100 /* ContentSquare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267B3AAE207F982B00050100 /* ContentSquare.framework */; };
+		267B3AB0207F982B00050100 /* ContentSquare.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 267B3AAE207F982B00050100 /* ContentSquare.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8A00468F1D0E1A3000591840 /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A00468E1D0E1A3000591840 /* AudioEngine.swift */; };
 		8A0714B31BA46CF300A1CC22 /* SearchAPIsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0714B21BA46CF300A1CC22 /* SearchAPIsViewController.swift */; };
 		8A0714B51BA46D0500A1CC22 /* SearchAPIs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A0714B41BA46D0500A1CC22 /* SearchAPIs.storyboard */; };
@@ -109,6 +111,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		267B3AB1207F982C00050100 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				267B3AB0207F982B00050100 /* ContentSquare.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8A9078C71B948F05000518C3 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,6 +137,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		267B3AAE207F982B00050100 /* ContentSquare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ContentSquare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F5D4751FD6AD2400B64688 /* ContentSquare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ContentSquare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A00468E1D0E1A3000591840 /* AudioEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
 		8A0714B21BA46CF300A1CC22 /* SearchAPIsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAPIsViewController.swift; sourceTree = "<group>"; };
@@ -228,6 +242,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				267B3AAF207F982B00050100 /* ContentSquare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,6 +569,7 @@
 		8AD5D74A1B295E8C001924F0 = {
 			isa = PBXGroup;
 			children = (
+				267B3AAE207F982B00050100 /* ContentSquare.framework */,
 				8A3A32181B35F0740016C4CE /* Resources */,
 				8AD5D7551B295E8C001924F0 /* iOS9Sampler */,
 				8A9078F01B949D42000518C3 /* iOS9SamplerExtensions */,
@@ -694,6 +710,7 @@
 				8AD5D7501B295E8C001924F0 /* Frameworks */,
 				8AD5D7511B295E8C001924F0 /* Resources */,
 				8A9078C71B948F05000518C3 /* Embed App Extensions */,
+				267B3AB1207F982C00050100 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
